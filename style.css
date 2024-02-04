@@ -1,0 +1,132 @@
+/*! Google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --font-1: "Outfit", sans-serif;
+}
+
+/*? reset code start  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-1);
+}
+
+body {
+  background: #dadada;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*? reset code end  */
+
+/*! nav design start  */
+/* nav  */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #131921;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+/* nav country design start  */
+/* nav country  */
+.nav-country {
+  display: flex;
+  align-items: end;
+  margin-left: 15px;
+  font-size: 15px;
+  color: #c4c4c4;
+}
+
+/* nav country name  */
+.nav-country h1 {
+  color: #fff;
+  font-size: 14px;
+}
+/* nav country design end */
+
+/* nav search desgin start  */
+/* nav search  */
+.nav-search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  color: grey;
+  max-width: 1000px;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+
+/* nav search catagory  */
+.nav-search-catagory {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 5px;
+  background: #e5e5e5;
+  border-radius: 4px 0 0 4px;
+}
+
+/* nav search input  */
+.nav-search-input {
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  width: 100%;
+}
+
+/* nav search icon  */
+.nav-search-icon {
+  max-width: 41px;
+  padding: 8px;
+  background: #ffd64f;
+  border-radius: 0 4px 4px 0;
+}
+/* nav search desgin end */
+
+/* nav language design start  */
+/* nav language  */
+.nav-language {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+/* nav language design end */
+
+/* nav text design start  */
+/* nav text  */
+.nav-text {
+  margin-left: 15px;
+}
+
+/* nav text p  */
+.nav-text p {
+  font-size: 10px;
+}
+
+/* nav text h1  */
+.nav-text h1 {
+  font-size: 14px;
+}
+/* nav text design end */
+
+/* nav cart design start  */
+/* nav cart  */
+.nav-cart {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+/* nav cart design end */
+/*! nav design end */
