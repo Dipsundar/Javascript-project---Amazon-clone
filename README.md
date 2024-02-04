@@ -10,4 +10,4 @@
 - Css
 - Javascript
 
-### [Click here to see the project demo]()
+### [Click here to see the project demo](https://dipsundar.github.io/Javascript-project---Amazon-clone/)
